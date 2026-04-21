@@ -1,0 +1,69 @@
+15:08:41 **** Incremental Build of configuration Nios II for project TinyML ****
+make all 
+Info: Building ../TinyML_bsp/
+D:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../TinyML_bsp/
+[BSP build complete]
+Info: Compiling source.c to obj/default/source.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TinyML_bsp//HAL/inc -I../TinyML_bsp/ -I../TinyML_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/source.o source.c
+Info: Linking TinyML.elf
+nios2-elf-g++  -T'../TinyML_bsp//linker.x' -msys-crt0='../TinyML_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TinyML_bsp/  -msmallc  -Wl,-Map=TinyML.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o TinyML.elf obj/default/source.o -lm -msys-lib=m
+nios2-elf-insert TinyML.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system --quartus_project_dir "D:/Quartus/TinyML" --jdi ../..//output_files/moduleTop.jdi --sopcinfo D:/Quartus/TinyML/Software/TinyML_bsp/../../system.sopcinfo
+Info: (TinyML.elf) 11 KBytes program size (code + initialized data).
+Info:              20 KBytes free for stack + heap.
+Info: Creating TinyML.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TinyML.elf >TinyML.objdump
+[TinyML build complete]
+15:08:57 **** Build of configuration Nios II for project TinyML ****
+make all 
+Info: Building ../TinyML_bsp/
+D:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../TinyML_bsp/
+[BSP build complete]
+[TinyML build complete]
+15:08:58 **** Incremental Build of configuration Nios II for project TinyML ****
+make all 
+Info: Building ../TinyML_bsp/
+D:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../TinyML_bsp/
+[BSP build complete]
+[TinyML build complete]
+15:09:59 **** Build of configuration Nios II for project TinyML ****
+make all 
+Info: Building ../TinyML_bsp/
+D:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../TinyML_bsp/
+[BSP build complete]
+Info: Compiling source.c to obj/default/source.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TinyML_bsp//HAL/inc -I../TinyML_bsp/ -I../TinyML_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/source.o source.c
+Info: Linking TinyML.elf
+nios2-elf-g++  -T'../TinyML_bsp//linker.x' -msys-crt0='../TinyML_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TinyML_bsp/  -msmallc  -Wl,-Map=TinyML.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o TinyML.elf obj/default/source.o -lm -msys-lib=m
+nios2-elf-insert TinyML.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system --quartus_project_dir "D:/Quartus/TinyML" --jdi ../..//output_files/moduleTop.jdi --sopcinfo D:/Quartus/TinyML/Software/TinyML_bsp/../../system.sopcinfo
+Info: (TinyML.elf) 11 KBytes program size (code + initialized data).
+Info:              20 KBytes free for stack + heap.
+Info: Creating TinyML.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TinyML.elf >TinyML.objdump
+[TinyML build complete]
+15:10:02 **** Incremental Build of configuration Nios II for project TinyML ****
+make all 
+Info: Building ../TinyML_bsp/
+D:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../TinyML_bsp/
+[BSP build complete]
+[TinyML build complete]
+15:36:21 **** Build of configuration Nios II for project TinyML ****
+make all 
+Info: Building ../TinyML_bsp/
+D:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../TinyML_bsp/
+[BSP build complete]
+Info: Compiling source.c to obj/default/source.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TinyML_bsp//HAL/inc -I../TinyML_bsp/ -I../TinyML_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/source.o source.c
+Info: Linking TinyML.elf
+nios2-elf-g++  -T'../TinyML_bsp//linker.x' -msys-crt0='../TinyML_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TinyML_bsp/  -msmallc  -Wl,-Map=TinyML.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o TinyML.elf obj/default/source.o -lm -msys-lib=m
+nios2-elf-insert TinyML.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system --quartus_project_dir "D:/Quartus/TinyML" --jdi ../..//output_files/moduleTop.jdi --sopcinfo D:/Quartus/TinyML/Software/TinyML_bsp/../../system.sopcinfo
+Info: (TinyML.elf) 11 KBytes program size (code + initialized data).
+Info:              20 KBytes free for stack + heap.
+Info: Creating TinyML.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TinyML.elf >TinyML.objdump
+[TinyML build complete]
+15:36:24 **** Incremental Build of configuration Nios II for project TinyML ****
+make all 
+Info: Building ../TinyML_bsp/
+D:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../TinyML_bsp/
+[BSP build complete]
+[TinyML build complete]
